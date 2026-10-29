@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.card {
+  width: 420px;
+  padding: 25px;
+  border: 3px solid rgb(27, 133, 134);
+  margin: 30px auto;
+  font-family: "Times New Roman", Times, serif;
+}
+select {
+  width: 50%;
+  border: 1px solid rgb(4, 0, 128);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+textarea {
+  width: 100%;
+  border: 1px solid rgb(10, 103, 134);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+input {
+  width: 100%;
+  border: 1px solid rgb(32, 97, 118);
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+h1 {
+  text-align: center;
+  color: rgb(6, 81, 106);
+  padding-bottom: 15px;
+}
+#text {
+  color: rgb(27, 75, 105);
+}
+.btn:hover {
+  background-color: rgb(38, 175, 97);
+  border: 3px solid rgb(6, 81, 106);
+  margin-right: 10px;
+}
+.rst:hover {
+  background-color: red;
+  color: #333333;
+  border: 3px solid #a01313;
+  margin-left: 10px;
+}
+.card {
+  background-color: rgb(197, 219, 232);
+}
+body {
+  background-color: rgb(220, 243, 245);
+}
+input[type="checkbox"] {
+  width: auto;
+  padding: 0;
+  margin: 5px;
+}
+/* 1.ширина content:364px
+2.при content box:476px
+3.bc auto делит место поровну,а 30px задаёт отступы снизу и сверху
+4.margin-внешний отступ
+padding-внутренний отступ*/

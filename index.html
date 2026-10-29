@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анкета</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form class="card">
+      <h1>Регистрация на курс</h1>
+      <p id="text">
+        Чтобы записаться на курс,заполните форму ниже.Укажите своё имя и
+        контактные данные.
+      </p>
+      <label for="name"><strong>Имя*</strong></label>
+      <input type="text" id="name" name="name" required />
+      <br />
+      <label for="surname"><strong>Фамилия*</strong></label>
+      <input type="text" id="surname" name="surname" required />
+      <br />
+      <label for="email"><strong>Email*</strong></label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="age"><strong>Возраст*</strong></label>
+      <input type="number" id="age" name="age" required />
+      <br />
+      <label for="pass"><strong>Пароль*</strong></label>
+      <input type="password" id="pass" name="pass" required />
+      <br />
+      <label for="chpass"><strong>Подтвердите пароль*</strong></label>
+      <input type="password" id="chpass" name="chpass" required />
+      <br />
+      <label for="course"><strong>Выбор направления</strong></label>
+      <select name="course" id="course">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="wd">WEB-DESIGN</option>
+      </select>
+      <br />
+      <label for="prpse"><strong>Почему хочешь учиться?</strong></label>
+      <textarea
+        name="prpse"
+        id="prpse"
+        placeholder="write your answer here.."
+        required
+      ></textarea>
+      <br />
+      <input type="checkbox" id="check" name="check" />
+      <label for="check"><strong>Согласен(-на) с правилами</strong></label>
+      <br /><br />
+      <button type="submit" class="btn">Отправить</button>
+      <button type="reset" class="rst">Очистить</button>
+    </form>
+  </body>
+</html>
